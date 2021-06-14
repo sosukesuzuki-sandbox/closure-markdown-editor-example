@@ -1,3 +1,9 @@
 goog.module("index");
 
-console.log("HELLO, WORLD");
+const editor = document.querySelector(".editor");
+const renderer = document.querySelector(".renderer");
+
+editor.oninput = () => {
+  const value = editor.value;
+  renderer.innerHTML = value;
+};
