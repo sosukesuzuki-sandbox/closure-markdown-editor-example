@@ -33,3 +33,17 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.detail {
+  display: flex;
+  width: 100%;
+}
+
+.detail .editor,
+.detail .renderer {
+  width: 50%;
+}
+
+.detail .editor {
+  resize: none;
+}
