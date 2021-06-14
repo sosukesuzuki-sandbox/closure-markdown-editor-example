@@ -34,9 +34,18 @@ img {
   height: auto;
 }
 
+.header {
+  height: 60px;
+}
+
+.header h1 {
+  line-height: 60px;
+}
+
 .detail {
   display: flex;
   width: 100%;
+  height: calc(100vh - 60px);
 }
 
 .detail .editor,
