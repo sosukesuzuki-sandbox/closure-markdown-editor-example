@@ -1,0 +1,4 @@
+{
+  "mode": "ADVANCED",
+  "paths": ["../src", "../node_modules/google-closure-library"]
+}

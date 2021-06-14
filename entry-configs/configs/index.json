@@ -1,0 +1,6 @@
+{
+  "id": "index",
+  "output-file": "../build/index.js",
+  "inherits": "../base.json",
+  "inputs": ["../src/index.js"]
+}

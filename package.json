@@ -1,0 +1,20 @@
+{
+  "name": "closure-markdown-editor-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fix": "prettier -w .",
+    "build": "duck build:js",
+    "deps": "duck build:deps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@cybozu/duck": "^0.33.0",
+    "google-closure-compiler": "^20210601.0.0",
+    "google-closure-library": "^20210406.0.0",
+    "prettier": "^2.3.1"
+  }
+}
